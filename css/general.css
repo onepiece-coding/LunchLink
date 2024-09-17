@@ -1,0 +1,120 @@
+/*
+
+--- 01 FONTS:
+
+  - Font sizes (px): 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  - Font weights: 400 / 500 / 600 / 700
+
+  - Line heights: 1.8 / 1.6 / 1.2
+
+  - Letter spacing (px): 1.5 / -0.5
+
+--- 02 COLORS: #000 / #000000cc / #ddd / #fff / #ffffffcc
+
+--- 05 SHADOWS:
+
+  - 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
+  - 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15)
+
+--- 06 BORDER-RADIUS (px): 11 / 9
+
+--- 07 WHITESPACE
+
+  - Spacing system (px): 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.8rem;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #000;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  color: #000;
+  margin-bottom: 1.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.main-header,
+.heading-primary,
+.heading-secondary,
+.heading-tertiary .hero-cta-btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited,
+.hero-cta:link,
+.hero-cta:visited,
+.pricing-cta:link,
+.pricing-cta:visited {
+  background-color: #000;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active,
+.hero-cta:hover,
+.hero-cta:active,
+.pricing-cta:hover,
+.pricing-cta:active,
+.btn-form:hover {
+  background-color: #000000cc;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(0, 0, 0, 0.075);
+}

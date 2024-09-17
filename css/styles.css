@@ -1,0 +1,557 @@
+/***************/
+/* Main-Header */
+/***************/
+
+.main-header {
+  padding: 0 4.8rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 8rem;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.logo {
+  display: block;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-decoration: None;
+  letter-spacing: -1.5px;
+}
+
+.logo-start {
+  color: #000;
+}
+
+.logo-end {
+  color: #000000cc;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: block;
+  color: #000;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: rgb(0, 0, 0, 0.8);
+}
+
+/****************/
+/* Section-Hero */
+/****************/
+
+.section-hero {
+  padding: 4.8rem;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../img/hero.webp");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero {
+  max-width: 70rem;
+}
+
+.hero-subheading {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.hero-cta {
+  text-transform: uppercase;
+}
+
+/********************/
+/* Benifits Section */
+/********************/
+
+.section-benifits {
+  padding: 9.6rem 4.8rem;
+  background-color: #ddd;
+}
+
+.benifits-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.benifits-text-box {
+  align-self: center;
+}
+
+.benifits-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.benifits-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #000;
+  margin-bottom: 1.2rem;
+}
+
+.benifit-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.benifits-img-box {
+  align-self: center;
+}
+
+.benifits-img-box img {
+  width: 100%;
+}
+
+/************************/
+/* How It Works Section */
+/************************/
+
+.section-how {
+  padding: 4.8rem;
+}
+
+.steps-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+  row-gap: 6.4rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.step-number {
+  font-size: 6.4rem;
+  font-weight: 600;
+  color: #000000cc;
+}
+
+.step-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #000;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/************************/
+/* Testimonials Section */
+/************************/
+
+.section-testimonials {
+  padding: 9.6rem 4.8rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.8rem;
+  row-gap: 6.4rem;
+}
+
+.testimonial {
+  padding: 3.2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.social-proof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.clients-imgs {
+  display: flex;
+}
+
+.clients-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid rgba(0, 0, 0, 0.075);
+}
+
+.clients-imgs img:last-child {
+  margin: 0;
+}
+
+.proof-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.proof-text span {
+  color: #000;
+  font-weight: 700;
+}
+
+/************************/
+/* Pricing Section */
+/************************/
+
+.section-pricing {
+  padding: 4.8rem;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 3.2rem;
+  justify-items: center;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  padding: 4.8rem 2.4rem;
+}
+
+.basic-plan,
+.premium-plan {
+  border: 2px solid #ddd;
+}
+
+.standard-plan {
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+.standard-plan::after {
+  content: "Most popular";
+  position: absolute;
+  top: 7%;
+  right: -27%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000000cc;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-description {
+  font-size: 1.6rem;
+}
+
+.plan-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.plan-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+
+.plan-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #000;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+/***************/
+/* CTA Section */
+/***************/
+
+.section-cta {
+  padding: 9.6rem 4.8rem;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #ddd;
+  color: #000;
+  border-radius: 11px;
+  overflow: hidden;
+
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+
+.cta-text-box {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.cta-text-box .heading-secondary {
+  font-size: 3.6rem;
+  text-align: start;
+  margin-bottom: 3.2rem;
+}
+
+.cta-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.form-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fff;
+  border-radius: 9px;
+}
+
+.btn-form {
+  border: none;
+  padding: 1.2rem;
+  background-color: #000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2.4rem;
+  transition: all 0.3s;
+}
+
+.or-divider {
+  display: none;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #000000cc;
+  margin: 0 1rem;
+}
+
+.or-divider span {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.demo-btn:link,
+.demo-btn:visited {
+  padding: 1.2rem;
+  background-color: #fff;
+  margin-top: 2.4rem;
+  text-align: center;
+  border-radius: 9px;
+  color: #000;
+}
+
+.demo-btn:hover,
+.demo-btn:active {
+  background-color: #ffffffcc;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(../img/form.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/**********/
+/* Footer */
+/**********/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6.4rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #000000cc;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #000;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
