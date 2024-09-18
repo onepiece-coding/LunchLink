@@ -33,3 +33,7 @@ To view or run the project locally:
 
    ```bash
    git clone https://github.com/AlhianeDev/LunchLink.git
+
+## Live Demo
+
+[lunch-link.vercel.app](https://lunch-link.vercel.app/)
