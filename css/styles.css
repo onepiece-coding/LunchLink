@@ -29,7 +29,7 @@
 }
 
 .logo-end {
-  color: #000000cc;
+  color: #036;
 }
 
 .main-nav-list {
@@ -51,7 +51,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: rgb(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0, 0.7);
 }
 
 /****************/
@@ -121,7 +121,7 @@
 .benifits-icon {
   width: 3.2rem;
   height: 3.2rem;
-  color: #000;
+  color: #036;
   margin-bottom: 1.2rem;
 }
 
@@ -163,13 +163,13 @@
 .step-number {
   font-size: 6.4rem;
   font-weight: 600;
-  color: #000000cc;
+  color: #777;
 }
 
 .step-icon {
   width: 3.2rem;
   height: 3.2rem;
-  color: #000;
+  color: #036;
   margin-bottom: 1.2rem;
 }
 
@@ -215,7 +215,7 @@
 .testimonial-name {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #000;
+  color: #036;
 }
 
 .social-proof {
@@ -235,7 +235,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid rgba(0, 0, 0, 0.075);
+  border: 3px solid #99adc2;
 }
 
 .clients-imgs img:last-child {
@@ -248,7 +248,7 @@
 }
 
 .proof-text span {
-  color: #000;
+  color: #036;
   font-weight: 700;
 }
 
@@ -292,7 +292,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #fff;
-  background-color: #000000cc;
+  background-color: #036;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -344,7 +344,7 @@
 .plan-icon {
   width: 3rem;
   height: 3rem;
-  color: #000;
+  color: #036;
 }
 
 .plan-sign-up {
@@ -421,7 +421,7 @@
 .btn-form {
   border: none;
   padding: 1.2rem;
-  background-color: #000;
+  background-color: #036;
   font-size: 1.8rem;
   font-weight: 600;
   transition: all 0.3s;
@@ -455,7 +455,7 @@
 .demo-btn:link,
 .demo-btn:visited {
   padding: 1.2rem;
-  background-color: #fff;
+  background-color: #aaa;
   margin-top: 2.4rem;
   text-align: center;
   border-radius: 9px;
@@ -464,7 +464,7 @@
 
 .demo-btn:hover,
 .demo-btn:active {
-  background-color: #ffffffcc;
+  background-color: #666;
 }
 
 .cta-img-box {

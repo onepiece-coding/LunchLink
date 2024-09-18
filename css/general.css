@@ -10,7 +10,7 @@
 
   - Letter spacing (px): 1.5 / -0.5
 
---- 02 COLORS: #000 / #000000cc / #ddd / #fff / #ffffffcc
+--- 02 COLORS: #000 / #000000cc / #ddd / #fff / #ffffffcc / -#036 / #002447 / #99adc2
 
 --- 05 SHADOWS:
 
@@ -98,7 +98,7 @@ body {
 .hero-cta:visited,
 .pricing-cta:link,
 .pricing-cta:visited {
-  background-color: #000;
+  background-color: #036;
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
@@ -111,7 +111,7 @@ body {
 .pricing-cta:hover,
 .pricing-cta:active,
 .btn-form:hover {
-  background-color: #000000cc;
+  background-color: #002447;
 }
 
 *:focus {
